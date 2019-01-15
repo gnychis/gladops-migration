@@ -1,0 +1,98 @@
+{
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.trimAutoWhitespace": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache/": true,
+        "**/.tox": true,
+        "**/.venv": true,
+        "**/__pycache__": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.rulers": [
+            88
+        ]
+    },
+    "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    "python.linting.lintOnSave": true,
+    "python.linting.banditEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.sortImports.args": [
+        "-ns",
+        "__init__.py"
+    ],
+    "python.unitTest.pyTestArgs": [
+        "tests"
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": true,
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.newlineBeforeSummary": true,
+    "psi-header.config": {
+        "blankLinesAfter": 0,
+        "forceToTop": true
+    },
+    "psi-header.lang-config": [
+        {
+            "language": "python",
+            "begin": "",
+            "end": "",
+            "prefix": "#  ",
+            "afterHeader": [
+                "\"\"\"",
+                "\"\"\"",
+                "",
+                "__author__ = \"Firstname Lastname (firstname.lastname@soroco.com)\"",
+                ""
+            ]
+        }
+    ],
+    "psi-header.changes-tracking": {
+        "autoHeader": "autoSave",
+        "include": [
+            "python"
+        ],
+        "modAuthor": "Modified By: Firstname Lastname"
+    },
+    "psi-header.templates": [
+        {
+            "language": "python",
+            "template": [
+                "Copyright 2016-18 Soroco Americas Private Limited",
+                "",
+                "Licensed under the Apache License, Version 2.0 (the \"License\");",
+                "you may not use this file except in compliance with the License.",
+                "You may obtain a copy of the License at",
+                "",
+                "    http://www.apache.org/licenses/LICENSE-2.0",
+                "",
+                "Unless required by applicable law or agreed to in writing, software",
+                "distributed under the License is distributed on an \"AS IS\" BASIS,",
+                "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+                "See the License for the specific language governing permissions and",
+                "limitations under the License.",
+                "",
+                "Primary Author: George Nychis <george@soroco.com>",
+                "",
+                "Purpose: "
+            ]
+        }
+    ],
+}
