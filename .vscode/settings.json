@@ -20,7 +20,7 @@
             88
         ]
     },
-    "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python36_64\\python.exe",
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.ignorePatterns": [
@@ -42,7 +42,7 @@
     ],
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.pyTestEnabled": false,
     "autoDocstring.docstringFormat": "google",
     "autoDocstring.newlineBeforeSummary": true,
     "psi-header.config": {
@@ -57,10 +57,7 @@
             "prefix": "#  ",
             "afterHeader": [
                 "\"\"\"",
-                "\"\"\"",
-                "",
-                "__author__ = \"Firstname Lastname (firstname.lastname@soroco.com)\"",
-                ""
+                "\"\"\""
             ]
         }
     ],
@@ -95,4 +92,5 @@
             ]
         }
     ],
+    "python.unitTest.promptToConfigure": false,
 }
